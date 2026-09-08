@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Generated captures and local calibration outputs
+guided_datasets/
+euroc_datasets/
+oak4p_stress/
+configs/imu_bno086.yaml
+configs/imu_bno086.allan_report.json

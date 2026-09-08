@@ -1,0 +1,16 @@
+detector_confidence: 0.99
+sample_min_detection_points: 12
+
+selection:
+  anchor:
+    radial_span: 0.25
+    iso: 0.50
+    budget: 0
+  covisible:
+    radial_span: 0.00
+    iso: 0.30
+    budget: 100
+  mono_fill:
+    radial_span: 0.20
+    iso: 0.30
+    budget: 0

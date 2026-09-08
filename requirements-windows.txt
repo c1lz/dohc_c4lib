@@ -1,0 +1,7 @@
+# Windows 10/11 x64 capture application and build dependencies.
+depthai>=3.8,<4
+numpy>=2,<3
+opencv-contrib-python>=4.10,<5
+PySide6>=6.7,<7
+pyinstaller>=6.10,<7
+PyYAML>=6,<7

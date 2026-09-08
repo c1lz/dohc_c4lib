@@ -1,0 +1,22 @@
+sync_tolerance_ms: 20.0
+cameras:
+  - id: cam0
+    topic: /cam_a/image_raw
+    model: omni-radtan
+    directory: cam0
+    frame_id: CAM_A
+  - id: cam1
+    topic: /cam_b/image_raw
+    model: omni-radtan
+    directory: cam1
+    frame_id: CAM_B
+  - id: cam2
+    topic: /cam_c/image_raw
+    model: omni-radtan
+    directory: cam2
+    frame_id: CAM_C
+  - id: cam3
+    topic: /cam_d/image_raw
+    model: omni-radtan
+    directory: cam3
+    frame_id: CAM_D
